@@ -7,7 +7,7 @@ contract Hello{
         hello = "hello world";
     }
     
-    //
+    
     function getHello() public view returns(string){
         return hello;
     }
